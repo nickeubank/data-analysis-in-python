@@ -8,7 +8,7 @@
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-71192702-1']);
+      _gaq.push(['_setAccount', 'UA-75136222-1']);
       _gaq.push(['_trackPageview']);
 
       (function() {
@@ -17,7 +17,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
-    <title>Stats with statsmodels &mdash; Python for Social Scientists 0.1 documentation</title>
+    <title>Stats with statsmodels &mdash; Data Analysis in Python 0.1 documentation</title>
     
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -35,7 +35,7 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="Python for Social Scientists 0.1 documentation" href="index.html" />
+    <link rel="top" title="Data Analysis in Python 0.1 documentation" href="index.html" />
     <link rel="next" title="Plotting" href="t_seaborn.html" />
     <link rel="prev" title="4. Installing Packages" href="4_install_packages.html" />
    
@@ -90,8 +90,8 @@
 <span class="go">Dep. Variable:        life_expectancy   R-squared:                       0.378</span>
 <span class="go">Model:                            OLS   Adj. R-squared:                  0.372</span>
 <span class="go">Method:                 Least Squares   F-statistic:                     65.10</span>
-<span class="go">Date:                Mon, 21 Dec 2015   Prob (F-statistic):           8.23e-23</span>
-<span class="go">Time:                        21:20:28   Log-Likelihood:                -734.50</span>
+<span class="go">Date:                Mon, 14 Mar 2016   Prob (F-statistic):           8.23e-23</span>
+<span class="go">Time:                        19:03:40   Log-Likelihood:                -734.50</span>
 <span class="go">No. Observations:                 217   AIC:                             1475.</span>
 <span class="go">Df Residuals:                     214   BIC:                             1485.</span>
 <span class="go">Df Model:                           2                                         </span>
@@ -126,8 +126,8 @@
 <span class="go">Dep. Variable:        life_expectancy   R-squared:                       0.580</span>
 <span class="go">Model:                            OLS   Adj. R-squared:                  0.574</span>
 <span class="go">Method:                 Least Squares   F-statistic:                     97.92</span>
-<span class="go">Date:                Mon, 21 Dec 2015   Prob (F-statistic):           7.27e-40</span>
-<span class="go">Time:                        21:20:28   Log-Likelihood:                -692.02</span>
+<span class="go">Date:                Mon, 14 Mar 2016   Prob (F-statistic):           7.27e-40</span>
+<span class="go">Time:                        19:03:40   Log-Likelihood:                -692.02</span>
 <span class="go">No. Observations:                 217   AIC:                             1392.</span>
 <span class="go">Df Residuals:                     213   BIC:                             1406.</span>
 <span class="go">Df Model:                           3                                         </span>
@@ -160,8 +160,8 @@
 <span class="go">Dep. Variable:        life_expectancy   R-squared:                       0.580</span>
 <span class="go">Model:                            OLS   Adj. R-squared:                  0.574</span>
 <span class="go">Method:                 Least Squares   F-statistic:                     83.84</span>
-<span class="go">Date:                Mon, 21 Dec 2015   Prob (F-statistic):           7.43e-36</span>
-<span class="go">Time:                        21:20:28   Log-Likelihood:                -692.02</span>
+<span class="go">Date:                Mon, 14 Mar 2016   Prob (F-statistic):           7.43e-36</span>
+<span class="go">Time:                        19:03:40   Log-Likelihood:                -692.02</span>
 <span class="go">No. Observations:                 217   AIC:                             1392.</span>
 <span class="go">Df Residuals:                     213   BIC:                             1406.</span>
 <span class="go">Df Model:                           3                                         </span>
@@ -189,7 +189,7 @@
 <span class="gp">In [12]: </span><span class="n">latex</span> <span class="o">=</span> <span class="n">results2_robust</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span><span class="o">.</span><span class="n">as_latex</span><span class="p">()</span>
 
 <span class="gp">In [13]: </span><span class="n">latex</span>
-<span class="gh">Out[13]: </span><span class="go">&#39;\\begin{center}\n\\begin{tabular}{lclc}\n\\toprule\n\\textbf{Dep. Variable:}        &amp; life_expectancy  &amp; \\textbf{  R-squared:         } &amp;     0.580   \\\\\n\\textbf{Model:}                &amp;       OLS        &amp; \\textbf{  Adj. R-squared:    } &amp;     0.574   \\\\\n\\textbf{Method:}               &amp;  Least Squares   &amp; \\textbf{  F-statistic:       } &amp;     83.84   \\\\\n\\textbf{Date:}                 &amp; Mon, 21 Dec 2015 &amp; \\textbf{  Prob (F-statistic):} &amp;  7.43e-36   \\\\\n\\textbf{Time:}                 &amp;     21:20:28     &amp; \\textbf{  Log-Likelihood:    } &amp;   -692.02   \\\\\n\\textbf{No. Observations:}     &amp;         217      &amp; \\textbf{  AIC:               } &amp;     1392.   \\\\\n\\textbf{Df Residuals:}         &amp;         213      &amp; \\textbf{  BIC:               } &amp;     1406.   \\\\\n\\textbf{Df Model:}             &amp;           3      &amp; \\textbf{                     } &amp;             \\\\\n\\bottomrule\n\\end{tabular}\n\\begin{tabular}{lccccc}\n                               &amp; \\textbf{coef} &amp; \\textbf{std err} &amp; \\textbf{t} &amp; \\textbf{P$&gt;$$|$t$|$} &amp; \\textbf{[95.0\\% Conf. Int.]}  \\\\\n\\midrule\n\\textbf{Intercept}             &amp;      69.7352  &amp;        0.918     &amp;    75.969  &amp;         0.000        &amp;        67.926    71.545       \\\\\n\\textbf{C(low_income)[T.True]} &amp;     -10.6282  &amp;        1.203     &amp;    -8.832  &amp;         0.000        &amp;       -13.000    -8.256       \\\\\n\\textbf{population_density}    &amp;      -0.0003  &amp;        0.000     &amp;    -0.851  &amp;         0.396        &amp;        -0.001     0.000       \\\\\n\\textbf{gdp_per_cap}           &amp;       0.0002  &amp;     3.96e-05     &amp;     4.564  &amp;         0.000        &amp;         0.000     0.000       \\\\\n\\bottomrule\n\\end{tabular}\n\\begin{tabular}{lclc}\n\\textbf{Omnibus:}       &amp; 75.439 &amp; \\textbf{  Durbin-Watson:     } &amp;    2.145  \\\\\n\\textbf{Prob(Omnibus):} &amp;  0.000 &amp; \\textbf{  Jarque-Bera (JB):  } &amp;  205.379  \\\\\n\\textbf{Skew:}          &amp; -1.527 &amp; \\textbf{  Prob(JB):          } &amp; 2.53e-45  \\\\\n\\textbf{Kurtosis:}      &amp;  6.659 &amp; \\textbf{  Cond. No.          } &amp; 7.67e+04  \\\\\n\\bottomrule\n\\end{tabular}\n%\\caption{OLS Regression Results}\n\\end{center}&#39;</span>
+<span class="gh">Out[13]: </span><span class="go">&#39;\\begin{center}\n\\begin{tabular}{lclc}\n\\toprule\n\\textbf{Dep. Variable:}        &amp; life_expectancy  &amp; \\textbf{  R-squared:         } &amp;     0.580   \\\\\n\\textbf{Model:}                &amp;       OLS        &amp; \\textbf{  Adj. R-squared:    } &amp;     0.574   \\\\\n\\textbf{Method:}               &amp;  Least Squares   &amp; \\textbf{  F-statistic:       } &amp;     83.84   \\\\\n\\textbf{Date:}                 &amp; Mon, 14 Mar 2016 &amp; \\textbf{  Prob (F-statistic):} &amp;  7.43e-36   \\\\\n\\textbf{Time:}                 &amp;     19:03:40     &amp; \\textbf{  Log-Likelihood:    } &amp;   -692.02   \\\\\n\\textbf{No. Observations:}     &amp;         217      &amp; \\textbf{  AIC:               } &amp;     1392.   \\\\\n\\textbf{Df Residuals:}         &amp;         213      &amp; \\textbf{  BIC:               } &amp;     1406.   \\\\\n\\textbf{Df Model:}             &amp;           3      &amp; \\textbf{                     } &amp;             \\\\\n\\bottomrule\n\\end{tabular}\n\\begin{tabular}{lccccc}\n                               &amp; \\textbf{coef} &amp; \\textbf{std err} &amp; \\textbf{t} &amp; \\textbf{P$&gt;$$|$t$|$} &amp; \\textbf{[95.0\\% Conf. Int.]}  \\\\\n\\midrule\n\\textbf{Intercept}             &amp;      69.7352  &amp;        0.918     &amp;    75.969  &amp;         0.000        &amp;        67.926    71.545       \\\\\n\\textbf{C(low_income)[T.True]} &amp;     -10.6282  &amp;        1.203     &amp;    -8.832  &amp;         0.000        &amp;       -13.000    -8.256       \\\\\n\\textbf{population_density}    &amp;      -0.0003  &amp;        0.000     &amp;    -0.851  &amp;         0.396        &amp;        -0.001     0.000       \\\\\n\\textbf{gdp_per_cap}           &amp;       0.0002  &amp;     3.96e-05     &amp;     4.564  &amp;         0.000        &amp;         0.000     0.000       \\\\\n\\bottomrule\n\\end{tabular}\n\\begin{tabular}{lclc}\n\\textbf{Omnibus:}       &amp; 75.439 &amp; \\textbf{  Durbin-Watson:     } &amp;    2.145  \\\\\n\\textbf{Prob(Omnibus):} &amp;  0.000 &amp; \\textbf{  Jarque-Bera (JB):  } &amp;  205.379  \\\\\n\\textbf{Skew:}          &amp; -1.527 &amp; \\textbf{  Prob(JB):          } &amp; 2.53e-45  \\\\\n\\textbf{Kurtosis:}      &amp;  6.659 &amp; \\textbf{  Cond. No.          } &amp; 7.67e+04  \\\\\n\\bottomrule\n\\end{tabular}\n%\\caption{OLS Regression Results}\n\\end{center}&#39;</span>
 
 <span class="go"># Save to disk</span>
 <span class="gp">In [14]: </span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;regression_table.tex&quot;</span><span class="p">,</span> <span class="s">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">text_file</span><span class="p">:</span>
@@ -205,7 +205,7 @@
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="index.html">Python for Social Scientists</a></h1>
+<h1 class="logo"><a href="index.html">Data Analysis in Python</a></h1>
 
 
 

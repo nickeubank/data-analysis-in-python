@@ -1,5 +1,4 @@
-# python-for-social-scientists
-Python for Social Scientists
+Data Analysis in Python!
 
-Welcome to the git repository for www.pythonforsocialscientists.org ! 
+Welcome to the git repository for www.data-analysis-in-python.org ! 
 

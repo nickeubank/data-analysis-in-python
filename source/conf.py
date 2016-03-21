@@ -44,7 +44,7 @@ extensions = [
 ]
 
 # Googl analytics
-googleanalytics_id = 'UA-71192702-1'
+googleanalytics_id = 'UA-75136222-1'
 googleanalytics_enabled = True
 
 
@@ -63,7 +63,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Python for Social Scientists'
+project = 'Data Analysis in Python'
 copyright = '2015, Nick Eubank'
 author = 'Nick Eubank'
 
@@ -245,7 +245,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'python_for_social_scientists.tex', 'python\\_for\\_social\\_scientists Documentation',
+  (master_doc, 'data_analysis_in_python.tex', 'data\_analysis\_in\_python Documentation',
    'Nick Eubank', 'manual'),
 ]
 
@@ -275,7 +275,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'python_for_social_scientists', 'python_for_social_scientists Documentation',
+    (master_doc, 'data_analysis_in_python', 'data_analysis_in_python Documentation',
      [author], 1)
 ]
 
@@ -289,8 +289,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'python_for_social_scientists', 'python_for_social_scientists Documentation',
-   author, 'python_for_social_scientists', 'One line description of project.',
+  (master_doc, 'data_analysis_in_python', 'data_analysis_in_python Documentation',
+   author, 'data_analysis_in_python', 'One line description of project.',
    'Miscellaneous'),
 ]
 
