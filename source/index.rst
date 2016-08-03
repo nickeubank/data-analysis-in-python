@@ -6,9 +6,6 @@
 Welcome to Data Analysis in Python!
 ========================================================
 
-**Looking for Python for Social Scientists?**
-
-**That's us! While the focus of this site is still social scientists, I'm finding lots of people with similar needs in other disciplines (like astronomy) are finding the site useful, so I thought I'd formally broaden the frame to welcome those users. If you are from another discipline and have suggestions for how to improve the content here to meet your needs, please let me know!**
 
 Python is an increasingly popular tool for data analysis. In recent years, a number of libraries have reached maturity, allowing R and Stata users to take advantage of the beauty, flexibility, and performance of Python without sacrificing the functionality these older programs have accumulated over the years.
 
