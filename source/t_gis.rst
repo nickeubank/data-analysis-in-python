@@ -7,7 +7,7 @@ There are two sets of tools for using GIS in Python: the first is by using pytho
 
 GeoPandas:
 ^^^^^^^^^^^
-The all-in-one GIS platform for Python is `GeoPandas`, which extends the popular `Pandas` library to also support spatial data. GeoPandas recently released version 0.2, and you can find `docs for 0.2 here <http://www.geopandas.readthedocs.org>`_ .  Hopefully, they're pretty good (full disclosure, I wrote many of them!)
+The all-in-one GIS platform for Python is `GeoPandas`, which extends the popular `Pandas` library to also support spatial data. GeoPandas recently released version 0.2, and you can find `docs for 0.2 here <http://www.geopandas.org>`_ .  Hopefully, they're pretty good (full disclosure, I wrote many of them!)
 
 You can also find a `a full course of geospatial analysis using GeoPandas <http://darribas.org/gds15/>`_ .
 
