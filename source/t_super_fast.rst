@@ -35,7 +35,7 @@ But interestingly, commands that other people have written that are available in
 
 As a result, looping over a vector and adding up each value will be much slower than using a dedicated function from `pandas` to do the same thing. 
 
-Now, using other people's functions is not fool-proof -- some people write their libraries Python (not a compiled language like C++), so they may run as slowly as your own commands. So if you can, check the documentation for whatever library you want to use to see whether it was written in C / C++ or not! But for big libraries -- like pandas, numpy, etc. -- you can probably assume the dedicated functions in the library are faster than anything you'll ever write. 
+Now, using other people's functions is not fool-proof -- some people write their libraries in Python (not a compiled language like C++), so they may run as slowly as your own commands. So if you can, check the documentation for whatever library you want to use to see whether it was written in C / C++ or not! But for big libraries -- like pandas, numpy, etc. -- you can probably assume the dedicated functions in the library are faster than anything you'll ever write. 
 
 
 4. Use a "Just-In-Time Compiler" like numba
